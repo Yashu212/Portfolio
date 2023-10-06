@@ -604,6 +604,8 @@ a{
     .skill-heading::after {
       bottom: 9%;
     }
+  }
+  @media (min-width: 500px) and (max-width: 1300px){
     .blob-style{
       display: none;
     }

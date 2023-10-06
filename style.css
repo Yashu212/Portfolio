@@ -104,12 +104,12 @@ a{
 }
 
 .hero-section-heading {
-  font-size: 35px;
+  font-size: 50px;
   color: #343d68;
   font-weight: 500;
 }
 .herosection-sub-heading {
-  font-size: 45px;
+  font-size: 40px;
   line-height: 45px;
 }
 .role {
@@ -119,6 +119,7 @@ a{
 .hero-section-description {
   margin-top: 1rem;
   width: 70%;
+  font-size: 20px;
   font-weight: 500;
 }
 .btn-pink {
@@ -153,13 +154,6 @@ a{
 }
 .btn-pink:hover {
   border: none
-}
-#btn-top{
-    border: none;
-}
-#btn-bottom {
-    border: none;
-    display: none;
 }
 /* Hero Left Section End */
 /* Hero Right Section Start */
@@ -286,13 +280,6 @@ a{
   }
   .faded-text {
     display: none;
-  }
-  #btn-top {
-    display: none;
-  }
-  #btn-bottom {
-    margin-top: -7rem;
-    display: block;
   }
   .hero-section-right {
     margin-top: -6em;
@@ -616,6 +603,9 @@ a{
     }
     .skill-heading::after {
       bottom: 9%;
+    }
+    .blob-style{
+      display: none;
     }
   }
 .contactus-form-container{

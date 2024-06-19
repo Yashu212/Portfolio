@@ -431,7 +431,7 @@ a{
   }
   
   #project1 {
-    background-image: url(./Images/Adventure.png);
+    background-image: url(./Images/Weather.png);
   }
   #project2 {
     background-image: url(./Images/Razorpay.png);
@@ -439,6 +439,10 @@ a{
   }
   #project3 {
     background-image: url(./Images/Portfolio.png);
+  }
+  #project4 {
+    background-image: url(./Images/Password.png);
+    margin-left: 120px;
   }
   
   @media (max-width:1300px) {
